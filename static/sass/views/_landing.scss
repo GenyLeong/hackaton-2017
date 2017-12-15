@@ -1,0 +1,182 @@
+.hero-image{
+  height: 820px;
+}
+
+#fondo {
+  background: $url_2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 16%;
+  background-position-x: center;
+  transition: background 1s ease;
+  -webkit-transition: background 1s ease;
+  -moz-transition: background 1s ease;
+  -o-transition: background 1s ease;
+    opacity: 0.9;
+  height: calc(89%);
+  position: relative;
+
+  .container{
+    height: 100%;
+  }
+
+  h1{
+    font-weight: 900;
+    font-family: $font_open;
+    color: $white;
+    position: absolute;
+    bottom: 9rem;
+    font-size: 4.8rem;
+    text-align: center
+  }
+
+  .sub{
+    position: absolute;
+    bottom: 0rem;
+    font-family: $font_gentium, serif;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 60%;
+    text-align: center;
+  }
+}
+
+.fa-quote-right{
+  font-size: 3rem;
+  position: relative;
+  top: -2rem;
+  margin: 7px;
+}
+
+.rotate{
+  transform: rotate(180deg);
+}
+
+#intro{
+  h2{
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: $font_open, sans-serif;
+  }
+
+  p{
+    font-family: $font_gentium, serif;
+    font-size: 1.4rem;
+    margin:0
+  }
+
+  .row{
+    width: 90%;
+    margin: auto;
+  }
+
+  iframe{
+    margin: 3rem auto;
+  }
+
+  .cifras{
+    margin: 1rem 0 0 0;
+    font-family: $font_open;
+    font-weight: 900;
+    font-size: 4rem;
+    color: $nav-lr
+  }
+}
+
+#storymap{
+      margin-top: 3rem;
+}
+
+footer{
+  background-color: $nav-lr;
+  padding: 1rem;
+  color:$white;
+
+  h3{
+    font-size: 2.52rem;
+    font-weight: 900;
+  }
+
+  h6{
+  text-align: end;
+}
+  .fa-quote-right {
+    font-size: 1.8rem;
+    top: -1rem;
+  }
+}
+
+  @media only screen and (max-width: 600px) {
+    #logo-lr{
+      position: fixed;
+      z-index: 999999;
+      width: 100%;
+      img{
+            margin-top: .6rem;
+      }
+    }
+    #fondo {
+      background: $url_3;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position-y: 16%;
+      position: relative;
+      top: 64px;
+        h1{
+          font-weight: 900;
+          font-family: "Open Sans", sans-serif;
+          color: #fff;
+          position: absolute;
+          bottom: 23rem;
+          font-size: 3.9rem;
+          right: 3rem;
+          left: 3rem;
+        }
+        .sub{
+          margin: auto;
+          right: 16%;
+          width: 70%
+        }
+    }
+    .fa-quote-right {
+      font-size: 2.2rem;
+    }
+    .vco-storymap{
+
+      .vco-map{
+        height: 356px !important;
+      }
+
+      .vco-storyslider{
+          height: 273px !important;
+      }
+    }
+    .container{
+          width: 95%;
+    }
+    footer{
+      h3{
+        text-align: center;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 340px) {
+    #logo-lr{
+      img{
+        width: 9rem;
+      }
+    }
+    #fondo{
+      h1 {
+        font-size: 3.3rem;
+        bottom: 27rem;
+      }
+      .sub{
+        bottom: 1rem;
+      }
+    }
+    .fa-quote-right {
+    font-size: 1.8rem;
+    }
+  }

@@ -1,0 +1,16 @@
+@import "./variables.scss";
+
+.v-center {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-shadow{
+      text-shadow: 0.3px 0.3px 0.8px #000;
+}
+
+.box-shadow{
+      box-shadow: 1.2px 1.2px 2px #000;
+}
